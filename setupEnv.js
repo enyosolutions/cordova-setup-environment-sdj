@@ -6,7 +6,7 @@ module.exports = function (context) {
     console.log("Setup en hook", context);
     var platforms = context.opts.platforms,
         cliCommand = context.cmdLine,
-        fileName = 'src/config/env/config.',
+        fileName = 'src/config/envs/config.',
         filePath = path.normalize(path.join(context.opts.projectRoot, fileName));
     // hook configuration
     var idx = cliCommand.indexOf('--app-env=');

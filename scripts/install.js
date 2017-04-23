@@ -27,7 +27,7 @@ var fs = require('fs'),
     scriptPath = __dirname; //node_modules/cordova-setup-environment/scripts
 
 var writePath = path.join(cwd, '../../scripts');
-var configWritePath = path.join(cwd, '../../src/config/env');
+var configWritePath = path.join(cwd, '../../src/config/envs');
 
 console.log(cwd, scriptPath, writePath);
 
