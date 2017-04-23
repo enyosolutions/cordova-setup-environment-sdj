@@ -1,0 +1,44 @@
+{
+    "name": "cordova-setup-environment",
+    "version": "0.1.0",
+    "description": "Setup environment related variables",
+    "main": "setupEnv.js",
+    "dependencies": {
+        "xml-writer": "^1.6.0",
+        "xml2js": "^0.4.10"
+    },
+    "peerDependencies": {},
+    "devDependencies": {},
+    "scripts": {
+        "postinstall": "node scripts/install.js",
+        "postuninstall": "node scripts/uninstall.js"
+    },
+    "author": "Faouzane BATIGA",
+    "license": "MIT",
+    "directories": {
+        "test": "test"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/cnring18/cordova-build-increment.git"
+    },
+    "bugs": {
+        "url": "https://github.com/cnring18/cordova-build-increment/issues"
+    },
+    "homepage": "https://github.com/cnring18/cordova-build-increment#readme",
+    "keywords": [
+        "ecosystem:cordova",
+        "build",
+        "cordova",
+        "cordova-build",
+        "cordova-ios",
+        "cordova-osx",
+        "cordova-android",
+        "cordova-windows",
+        "hooks",
+        "hook",
+        "env",
+        "environment",
+        "api"
+    ]
+}
