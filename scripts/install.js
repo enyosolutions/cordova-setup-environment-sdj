@@ -27,12 +27,18 @@ var fs = require('fs'),
     scriptPath = __dirname; //node_modules/cordova-setup-environment/scripts
 
 var writePath = path.join(cwd, '../../scripts');
+var configWritePath = path.join(cwd, '../../src/config/env');
 
 console.log(cwd, scriptPath, writePath);
 
 if (!fs.existsSync(writePath)) {
     console.log('Creating directory: ', writePath);
     fs.mkdirSync(writePath);
+}
+
+if (!fs.existsSync(configWritePath)) {
+    console.log('Creating directory: ', configWritePath);
+    fs.mkdirSync(configWritePath);
 }
 
 
