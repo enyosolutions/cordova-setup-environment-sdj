@@ -1,5 +1,5 @@
 {
-    "name": "cordova-setup-environment",
+    "name": "cordova-setup-environment-sdj",
     "version": "0.0.1",
     "description": "Setup environment related variables",
     "main": "setupEnv.js",
@@ -20,12 +20,12 @@
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/cnring18/cordova-build-increment.git"
+        "url": "git+https://github.com/enyosolutions/cordova-setup-environment-sdj.git"
     },
     "bugs": {
-        "url": "https://github.com/cnring18/cordova-build-increment/issues"
+        "url": "https://github.com/enyosolutions/cordova-setup-environment-sdj/issues"
     },
-    "homepage": "https://github.com/cnring18/cordova-build-increment#readme",
+    "homepage": "https://github.com/enyosolutions/cordova-setup-environment-sdj#readme",
     "keywords": [
         "ecosystem:cordova",
         "build",
